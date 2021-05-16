@@ -1,0 +1,80 @@
+
+.container-16j22k {background: transparent; pointer-events: none}
+.container-16j22k>div {display: none}
+.container-16j22k::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
+
+
+
+html:root {
+    --font-display: var(--font-primary);
+}
+
+#app-mount .wrapper-3WhCwL {
+    color: #687dc6;
+    background: rgba(114,137,218,0.1);
+}
+#app-mount .wrapper-3WhCwL:hover {
+    background: rgb(114,137,218);
+    color: white;
+}
+#app-mount .mentioned-xhSam7 .mention {
+    background: transparent !important
+}
+#app-mount .mentioned-xhSam7 .mention:hover {
+    color: #687dc6;
+}
+
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
+}
+
+
+/* Servers */
+.avatarSpeaking-2IGMRN {box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary)}
+/* DMs */
+.border-Jn5IOt.speaking-B2MXPi {box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-floating)}
+/* Grid call */
+.border-3dQmSY.speaking-WDn8Wm {box-shadow: inset 0 0 0 2px red, inset 0 0 0 3px #000}
+/* User menu (bottom left) */
+.avatarSpeaking-2c8-9i {box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary)}
+/* Voice users */
+.speaking-3dBKhR {box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary)}
+
+.menu-3sdvDG {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.toolbar-1t6TWx a {
+  display: none;
+}
